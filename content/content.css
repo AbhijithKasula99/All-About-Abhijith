@@ -9,9 +9,13 @@
 }
 
 .introduction {
-  height: 100vh;
+  height: 120vh;
   display: flex;
   background-color: #ffd23f;
+  background-image: url(../Images/Graffiti-Final.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover 80%;
   align-items: center;
   overflow: hidden;
 }
@@ -19,15 +23,7 @@
 .text {
   flex: 2.5;
   cursor: default;
-  font-size: 2vw;
-}
-
-.image {
-  flex: 1.5;
-  scale: 150%;
-  margin-top: 28%;
-  height: 100%;
-  width: 100%;
+  font-size: 1vw;
 }
 
 .nameContainer {
