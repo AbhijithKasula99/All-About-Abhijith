@@ -11,10 +11,10 @@
 .introduction {
   height: 120vh;
   display: flex;
-  background-image: url(../Images/Wall.jpg);
+  background-image: url(../Images/Graffiti-Final.png);
   background-repeat: no-repeat;
   background-position: center bottom;
-  background-size: cover;
+  background-size: cover 30%;
   align-items: center;
   overflow: hidden;
 }
