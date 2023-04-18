@@ -262,22 +262,6 @@
   text-align: center;
 }
 
-/* Education */
-.education {
-  background-color: blue;
-  font-family: "Poppins", sans-serif;
-  height: 200vh;
-  color: #fff;
-}
-
-.education h2 {
-  height: 100vh;
-  font-family: 'Poppins', sans-serif;
-  font-size: 6vw;
-  cursor: default;
-  text-align: center;
-}
-
 /* Inspiration */
 
 .inspiration {
@@ -395,4 +379,86 @@ nav a.active {
   background-color: #fff;
   color: #E00122;
   border: 1px solid #001011;
+}
+
+/* Education section */
+
+/* Education */
+
+.education {
+  background-color: beige;
+  font-family: "Poppins", sans-serif;
+  height: 180vh;
+  color: #001011;
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: slideIn 0.5s ease-in-out forwards;
+}
+
+.education h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 6vw;
+  cursor: default;
+  text-align: center;
+}
+
+.masters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.masters img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 0% 10%;
+  padding-top: 10%;
+}
+
+.masters h3 {
+  width: 100%;
+  font-weight: 600;
+  font-size: 3vw;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.under {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.under img {
+max-width: 100%;
+height: auto;
+display: block;
+padding: 0% 10%;
+padding-top: 10%;
+}
+
+.under h3 {
+width: 100%;
+font-weight: 600;
+font-size: 3vw;
+text-align: center;
+padding-top: 5%;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }

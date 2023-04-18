@@ -49,3 +49,9 @@ function copyEmail() {
   document.body.removeChild(tempInput);
   alert("Email address copied to clipboard!");
 }
+
+
+
+
+
+
