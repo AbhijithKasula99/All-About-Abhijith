@@ -95,7 +95,8 @@
     background-image: url('../Images/wave.svg');
     background-repeat: no-repeat;
     background-size: contain; /* or cover, depending on how you want to scale the image */
-    background-position: center bottom;      
+    background-position: center bottom; 
+    overflow: hidden;     
 }
 
 .role-2 {
@@ -296,7 +297,7 @@
 
 /* Navigation bar */
 
-nav {
+.navbar {
   position: fixed;
   top: 30px;
   left: 0;
@@ -312,9 +313,10 @@ nav {
   font-family: 'Poppins', sans-serif;
   box-shadow: 0 0 10px rgb(0 0 0 / 10%);
   word-spacing: 2vw;
+  z-index: 9999;
 }
 
-nav a {
+.navbar a {
   color: inherit;
   text-decoration: none;
   transition: 0.3s;
@@ -322,15 +324,15 @@ nav a {
   font-weight: 600;
 }
 
-nav span {
+.navbar span {
   margin-right: 10px;
 }
 
-nav a.active {
+.navbar a.active {
   color: #E00122;
 }
 
-.nav a.hover {
+.navbar a.hover {
   background-color: #E00122;
   color: #fff;
 }

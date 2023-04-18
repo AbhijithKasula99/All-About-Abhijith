@@ -8,9 +8,15 @@
     <link rel="shortcut icon" href="../Images/Favicon.jpg" type="image/x-icon" />
     <title>All About Abhijith</title>
     <link rel="stylesheet" href="content.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- Animate on Scroll -->
   </head>
   <body>
+    <!-- Animate on Scroll -->
     <script src="content.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 <!-- Menu Bar -->
 
@@ -53,14 +59,14 @@
 </div>
       <!-- Name -->
       <div class="nameContainer">
-        <h2>I'm Abhijith Kasula</h2>
+        <h2 data-aos="fade-right" data-aos-delay="1000" data-aos-easing="linear">I'm Abhijith Kasula</h2>
       </div>
       <!-- Role -->
       <div class="role-1">
-        <h2>a Data Analyst</h2>
+        <h2 data-aos="fade-left" data-aos-delay="1000" data-aos-easing="linear">a Data Analyst</h2>
       </div>
       <div class="role-2">
-        <h2>at Thinklusive</h2>
+        <h2 data-aos="fade-down" data-aos-delay="1000" data-aos-easing="linear">at Thinklusive</h2>
       </div>
 </section>
 
@@ -86,17 +92,17 @@
 
 <section id="education" id="education">
     <div class="education">
-      <h2>Education</h2>
+      <h2 data-aos="fade-down" data-aos-delay="1000" data-aos-easing="linear">Education</h2>
       <div class="masters">
-       <img src="../Images/UC.png" alt="UC logo">
+       <img data-aos="fade-right" data-aos-delay="1000" data-aos-easing="linear" src="../Images/UC.png" alt="UC logo">
       <div class="mastersdeg">
-        <h3>Master of Engineering in Mechanical Engineering</h3> 
+        <h3 data-aos="fade-right" data-aos-delay="1000" data-aos-easing="linear">Master of Engineering in Mechanical Engineering</h3> 
       </div> 
       </div>
       <div class="under">
-        <img src="../Images/Presi.png" alt="Presi logo">
+        <img data-aos="fade-left" data-aos-delay="1000" data-aos-easing="linear" src="../Images/Presi.png" alt="Presi logo">
        <div class="underdeg">
-         <h3>Bachelor of Technology in Mechanical Engineering</h3> 
+         <h3 data-aos="fade-left" data-aos-delay="1000" data-aos-easing="linear">Bachelor of Technology in Mechanical Engineering</h3> 
        </div> 
        </div>
      </div>
@@ -111,10 +117,10 @@
 
 <section id="contact">
   <div class="contact">
-    <h2>Get in touch?</h2>
-    <p>If you have any questions or comments, please feel free to send me an email at:</p>
+    <h2 data-aos="fade-down" data-aos-delay="1000" data-aos-easing="linear">Get in touch?</h2>
+    <p data-aos="fade-right" data-aos-delay="1000" data-aos-easing="linear">If you have any questions or comments, please feel free to send me an email at:</p>
     <div class="email">
-      <p id="email">kasulaabhi20@gmail.com</p>
+      <p data-aos="fade-left" data-aos-delay="1000" data-aos-easing="linear" id="email">kasulaabhi20@gmail.com</p>
     </div>
     <div class="btn">
       <button id="copy-btn" onclick="copyEmail()">Copy</button>
