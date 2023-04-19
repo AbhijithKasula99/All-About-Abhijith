@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
@@ -246,12 +247,96 @@ body {
 }
 
 .skills h2 {
-  height: 100vh;
   font-family: 'Poppins', sans-serif;
   font-size: 6vw;
   cursor: default;
   text-align: center;
 }
+
+.skillsdeg {
+  width: 100%;
+  font-weight: 600;
+  font-size: 3vw;
+  text-align: left;
+  padding-top: 5%;
+  padding-left: 3%;
+}
+
+.skillsdeg #python {
+  width: 5rem;
+  height: 5rem;
+}
+
+.skillsdeg #tableau {
+  width: 10rem;
+  height: 6rem;
+}
+
+.skillsdeg #mysql {
+  width: 5rem;
+  height: 5rem;
+}
+
+.skillsdeg #excel {
+  width: 8rem;
+  height: 5rem;
+}
+
+.skillsdeg #R {
+  width: 6rem;
+  height: 5rem;
+}
+
+.skillsdeg #powerbi {
+  width: 6rem;
+  height: 5rem;
+}
+
+.skillsdeg #solidworks {
+  width: 10rem;
+  height: 7rem;
+}
+
+.skillsdeg #catia {
+  width: 7rem;
+  height: 6rem;
+}
+
+.skillsdeg #fusion {
+  width: 15rem;
+  height: 8rem;
+}
+
+.skillsdeg #autocad {
+  width: 10rem;
+  height: 6rem;
+}
+
+.skillsdeg #ansys {
+  width: 10rem;
+  height: 4rem;
+}
+
+.skillsdeg #after {
+  width: 5rem;
+  height: 5rem;
+}
+
+.skillsdeg #illustrator {
+  width: 7rem;
+  height: 7rem;
+}
+
+.skillsdeg #photoshop {
+  width: 7rem;
+  height: 7rem;
+}
+
+.skillsdeg #blender {
+  width: 6rem;
+  height: 5rem;
+}
+
 
 /* work experience */
 .work-experience {
@@ -279,7 +364,7 @@ body {
 .inspiration {
   background-color: #F4F4D5;
   font-family: "Poppins", sans-serif;
-  height: 700vh;
+  height: 800vh;
   color: #7f5539;
 }
 
