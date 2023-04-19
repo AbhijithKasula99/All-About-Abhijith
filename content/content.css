@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* Scroll to top button */
 
 .scroll-to-top {
@@ -275,12 +279,11 @@
 .inspiration {
   background-color: #F4F4D5;
   font-family: "Poppins", sans-serif;
-  height: 200vh;
+  height: 700vh;
   color: #7f5539;
 }
 
 .inspiration h2 {
-  height: 100vh;
   font-family: 'Poppins', sans-serif;
   font-size: 6vw;
   cursor: default;
