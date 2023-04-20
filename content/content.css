@@ -348,6 +348,28 @@ body {
   height: 5rem;
 }
 
+/* Certifications */
+
+.certifications {
+  background-color: #001011;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  color: #FFD23F;
+  overflow: hidden;
+}
+
+.certifications h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 6vw;
+  cursor: default;
+  text-align: center;
+}
+
+.certifications li {
+  font-size: 2.5vw;
+  padding: 3%;
+  padding-left: 5%;
+}
 
 /* work experience */
 
@@ -663,6 +685,11 @@ background-color: #001011;
   }
 
   .work-experience {
+    height: auto;
+    min-height: 30vh;
+  }
+
+  .certifications {
     height: auto;
     min-height: 30vh;
   }
