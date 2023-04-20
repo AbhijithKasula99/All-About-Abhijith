@@ -642,3 +642,33 @@ background-color: #001011;
     transform: translateX(0);
   }
 }
+
+/* Adjusting height on mobile view */
+
+@media (max-width: 768px) {
+  
+  .contact {
+    height: auto;
+    min-height: 50vh;
+  }
+  
+  .inspiration {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .education {
+    height: auto;
+    min-height: 50vh;
+  }
+
+  .work-experience {
+    height: auto;
+    min-height: 30vh;
+  }
+
+  .introduction nameContainer {
+    height: auto;
+    min-height: 20vh;
+  }
+}
