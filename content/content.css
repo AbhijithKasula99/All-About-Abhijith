@@ -221,16 +221,14 @@ body {
   color: #001011;
 }
 
-.projects h1 {
-  height: 100vh;
+.projects li {
   font-family: 'Poppins', sans-serif;
-  font-size: 6vw;
-  cursor: default;
-  text-align: center;
+  font-size: 2.5vw;
+  padding: 3%;
+  padding-left: 5%;
 }
 
 .projects h2 {
-  height: 100vh;
   font-family: 'Poppins', sans-serif;
   font-size: 6vw;
   cursor: default;
