@@ -501,6 +501,7 @@ body {
   box-shadow: 0 0 10px rgb(0 0 0 / 10%);
   word-spacing: 2vw;
   z-index: 9999;
+  overflow-y: hidden;
 }
 
 .navbar a {
@@ -698,6 +699,11 @@ body {
   }
 
   .introduction nameContainer {
+    height: auto;
+    min-height: 20vh;
+  }
+
+  .projects {
     height: auto;
     min-height: 20vh;
   }
