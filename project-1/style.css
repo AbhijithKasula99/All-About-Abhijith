@@ -41,6 +41,7 @@
   background-color: #6fffe9;
   color: #001011;
   height: 300vh;
+  overflow-y: hidden;
 }
 
 .present p {
@@ -151,4 +152,30 @@
         height: 15vh;
     }
 
+}
+
+/* Download Button */
+
+.btn {
+  display: inline-block;
+  padding: 0.5% 1.7%;
+  border: 0.1% solid #001011;
+  margin: 5% 0%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-left: 5%;
+  margin-bottom: 0%;
+  text-decoration: none;
+  font-family: "poppins", sans-serif;
+  font-weight: 300;
+  color: #6fffe9;
+  background-color: #001011;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  background-color: #6fffe9;
+  color: #001011;
+  border: 1px solid #001011;
 }
