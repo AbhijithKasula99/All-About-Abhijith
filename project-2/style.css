@@ -10,7 +10,7 @@
 /* Script  */
 
 .past {
-  height: 200vh;
+  height: 100vh;
   overflow-y: hidden;
   background-color: #001011;
   padding: 5% 5%;
@@ -37,7 +37,7 @@
 /* Scrape */
 
 .scrape {
-  height: 250vh;
+  height: 320vh;
   overflow-y: hidden;
   background-color: #18ff6d;
   padding: 5% 5%;
@@ -50,6 +50,10 @@
   font-size: 6vw;
   text-align: center;
   overflow-y: hidden;
+}
+
+.scrape :nth-child(2) {
+  height: 45vh;
 }
 
 .scrape p {
@@ -129,6 +133,10 @@ pre {
   overflow-y: hidden;
 }
 
+.download p {
+  font-size: 3vw;
+}
+
 /* Scroll to top button */
 
 .scroll-to-top {
@@ -183,7 +191,7 @@ pre {
   .past {
     width: auto;
     height: auto;
-    min-height: 60vh;
+    min-height: 30vh;
   }
 
   .past h1 {
@@ -204,12 +212,17 @@ pre {
   .scrape {
     width: auto;
     height: auto;
-    min-height: 60vh;
+    min-height: 50vh;
   }
 
   .scrape h1 {
     height: auto;
     min-height: 10vh;
+  }
+
+  #con {
+    height: auto;
+    min-width: 5vh;
   }
 
   .scrape p {
@@ -219,8 +232,13 @@ pre {
 
   .download {
     height: auto;
-    min-height: 50vh;
+    min-height: 30vh;
   }  
+
+  .download h1 {
+    height: auto;
+    min-height: 10vh;
+  }
 }
 
 /* Navigation bar */
