@@ -209,55 +209,49 @@ pre {
 
 @media (max-width: 768px) {
   .past {
-    width: auto;
     height: auto;
     min-height: 30vh;
   }
 
   .past h1 {
     height: auto;
-    min-height: 10vh;
+    min-height: 5vh;
   }
 
   .past p {
     height: auto;
-    min-height: 15vh;
-  }
-
-  .past :nth-last-child() {
-    height: auto;
-    min-height: 25vh;
+    min-height: 12vh;
   }
 
   .scrape {
-    width: auto;
     height: auto;
-    min-height: 50vh;
+    min-height: 70vh;
   }
 
   .scrape h1 {
     height: auto;
-    min-height: 10vh;
+    min-height: 5vh;
   }
 
-  #con {
+  .scrape #con {
     height: auto;
-    min-width: 5vh;
+    min-height: 15vh;
   }
 
   .scrape p {
     height: auto;
-    min-height: 10vh;
+    min-height: 15vh;
   }
 
-  .download {
-    height: auto;
-    min-height: 30vh;
-  }  
-
-  .download h1 {
+  .scrape :nth-child(4) {
     height: auto;
     min-height: 10vh;
+    padding-bottom: 0%;
+  }
+
+  .scrape #out {
+    height: auto;
+    min-height: 15vh;
   }
 }
 
