@@ -690,7 +690,7 @@ body {
 
   .work-experience {
     height: auto;
-    min-height: 30vh;
+    min-height: 25vh;
   }
 
   .certifications {
@@ -708,8 +708,39 @@ body {
     min-height: 20vh;
   }
 
-  #ill {
+  .skills {
     height: auto;
-    min-height: 10vh;
+    min-height: 100vh;
+  }
+
+  .skills #ill {
+    height: auto;
+    min-height: 5vh;
   } 
+
+  .nameContainer {
+    height: auto;
+    min-height: 20vh;
+  }
+
+  .nameContainer h2 {
+    padding-top: 7vh;
+    height: auto;
+    min-height: 5vh;
+    line-height: normal;
+  }
+
+  #role-1 {
+    padding-top: 7vh;
+    height: auto;
+    min-height: 22vh;
+    line-height: normal;
+  }
+
+  #role-2 {
+    padding-top: 7vh;
+    height: auto;
+    min-height: 20vh;
+    line-height: normal;
+  }
 }
