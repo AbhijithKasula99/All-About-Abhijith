@@ -672,6 +672,13 @@ body {
 /* Adjusting height on mobile view */
 
 @media (max-width: 768px) {
+
+  .introduction {
+    width: auto;
+    height: fit-content;
+    background-position: 0%;
+    margin-top: 25%;
+  }
   
   .contact {
     height: auto;
