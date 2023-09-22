@@ -471,7 +471,7 @@ body {
 .contact {
   background-color: #001011;
   font-family: "Poppins", sans-serif;
-  height: 150vh;
+  height: 180vh;
   color: #FFD23F;
 }
 
@@ -480,6 +480,7 @@ body {
   font-size: 10vw;
   cursor: default;
   text-align: center;
+  margin-bottom: 10%;
 }
 
 /* Navigation bar */
@@ -578,7 +579,7 @@ body {
 .education {
   background-color: #001011;
   font-family: "Poppins", sans-serif;
-  height: 180vh;
+  height: 120vh;
   color: #FFD23F;
   opacity: 0;
   transform: translateX(-50px);
@@ -611,7 +612,7 @@ body {
   max-width: 100%;
   height: auto;
   display: block;
-  padding: 0% 10%;
+  padding: 0% 20%;
   padding-top: 5%;
 }
 
@@ -641,7 +642,7 @@ body {
   max-width: 100%;
   height: auto;
   display: block;
-  padding: 0% 10%;
+  padding: 0% 20%;
   padding-top: 5%;
   }
 
