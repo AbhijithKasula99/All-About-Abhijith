@@ -215,10 +215,10 @@ body {
 /* Projects */
 
 .projects {
-  background-color: #FFD23F;
+  background-color: #001011;
   font-family: "Poppins", sans-serif;
   height: 120vh;
-  color: #001011;
+  color: #FFD23F;
 }
 
 .projects li {
