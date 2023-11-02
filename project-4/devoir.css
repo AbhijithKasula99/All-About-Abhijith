@@ -10,7 +10,7 @@
 /* Script  */
 
 .past {
-  height: 100vh;
+  height: 140vh;
   overflow-y: hidden;
   background-color: #001011;
   padding: 5% 5%;
@@ -26,7 +26,7 @@
 }
 
 .past p {
-  height: 50vh;
+  height: 60vh;
   color: #FFFFFF;
   font-size: 3vw;
   font-family: "Poppins", sans-serif;
@@ -148,6 +148,7 @@ pre {
   color: #FFFFFF;
   overflow-y: hidden;
   padding: 5% 5%;
+  padding-top: 0%;
   font-family: "poppins", sans-serif;
   font-size: 2.5vw;
 }
